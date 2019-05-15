@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h4 class="page-heading">{{ page.title }}</h4>
+  {%- endif -%}
+
+<img src="assets/images/giant.jpeg" alt="Coronel Gummy Dad" style="display: inline-block; float:right">
+
+ 
+ {{ content }}
+
+ {%- if site.posts.size > 0 -%}
+   <h4 class="post-list-heading">{{ page.list_title | default: "Gummy Bear History" }}</h4>
+   <ul class="post-list">
+ {% for post in site.posts %}
+{%- if post.featured -%}
+     <li>
+       {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+       <span class="post-meta">{{ post.date | date: date_format }}</span>
+       <h3>
+       <a href="{{ post.url }}">{{ post.title }}</a>
+       </h3>
+     </li>
+{%- endif -%}
+ {% endfor %}
+   </ul>
+ {%- endif -%}
+
+</div>

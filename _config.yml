@@ -1,0 +1,21 @@
+title: I like gummy bears
+author: João Firmo
+email: joaolaiafirmo@gmail.com
+description: > # this means to ignore newlines until "exclude"
+  I love gummy bears. Gummy bears are my life. I live and breathe to get more gummy bears in my stash. Gummy bears are love. Gummy bears are life.
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+
+# Date format for posts
+# refer to http://shopify.github.io/liquid/filters/date/ if you
+# want to customize this
+date_format: "%b %-d, %Y"
+
+# generate social links in footer
+social_links:
+  twitter: joaolaiafirmo
+  facebook: joaolaiafirmo
