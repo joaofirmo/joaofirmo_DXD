@@ -1,8 +1,8 @@
-title: I like gummy bears
+title: João Firmo
 author: João Firmo
 email: joaolaiafirmo@gmail.com
 description: > # this means to ignore newlines until "exclude"
-  I love gummy bears. Gummy bears are my life. I live and breathe to get more gummy bears in my stash. Gummy bears are love. Gummy bears are life.
+  This is the website I made for this course. I really do hope you enjoy it.
 
 exclude:
   - Gemfile
