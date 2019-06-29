@@ -2,7 +2,7 @@ title: João Firmo
 author: João Firmo
 email: joaolaiafirmo@gmail.com
 description: > # this means to ignore newlines until "exclude"
-  This is me, my portfolio and my work.
+  Feel free to send me a message, I'm always open for new adventures!
 
 exclude:
   - Gemfile
@@ -13,7 +13,7 @@ exclude:
 # Date format for posts
 # refer to http://shopify.github.io/liquid/filters/date/ if you
 # want to customize this
-date_format: "%b %-d, %Y"
+date_format: "%Y"
 
 # generate social links in footer
 social_links:
