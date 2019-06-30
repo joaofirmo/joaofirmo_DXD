@@ -96,15 +96,30 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+
+li h1{
+    margin-right: auto;
+}
+
+li h2{
+    margin-right: auto;
+}
+
+h1{
         font-family: 'Space Mono', monospace;
     background-color: black;
     color: white;
-    margin-right: 1400px;
+    margin-right: 1370px;
   font-weight: $base-font-weight;
 }
 
-
+h2, h3, h4, h5, h6 {
+        font-family: 'Space Mono', monospace;
+    background-color: black;
+    color: white;
+    margin-right: 1430px;
+  font-weight: $base-font-weight;
+}
 
 /**
  * Links

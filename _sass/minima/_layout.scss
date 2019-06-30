@@ -208,8 +208,6 @@
 }
 
 .post-list-heading {
-    background-color: black;
-    margin-right: 200px;
   @include relative-font-size(1.75);
 }
 
@@ -376,7 +374,6 @@
 
 .post-title
 .post-content h1 {
-    margin-right: 1300px;
     background-color: black;
     color: white;
     @include relative-font-size(2.625);
