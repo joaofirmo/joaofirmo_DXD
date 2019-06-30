@@ -15,9 +15,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    margin: 0;
   font: 'Montserrat';
   color: $text-color;
-  background-color: bisque;
+  background-image: url(/assets/images/background.png);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;

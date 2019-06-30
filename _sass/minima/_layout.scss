@@ -5,7 +5,7 @@
     font-family: 'Space Mono';
     background-color: black;
     border-top: 30px;
-    margin-top: 35px;
+    margin-top: 0px;
     border-bottom: 0px solid black;
     min-height: $spacing-unit * 1.865;
     line-height: $base-line-height * $base-font-size * 2.25;
@@ -32,6 +32,7 @@
 }
 
 .site-nav {
+    margin-top: 0;
     font-family: 'Space Mono';
     position: absolute;
     top: 9px;
@@ -219,6 +220,7 @@
     font-family: 'Space Mono', monospace;
     margin-left: 0;
     list-style: none;
+    background-color: black;
 
     > li {
         float: left;
@@ -263,25 +265,40 @@
     }
 }
 
+#about {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: black;
+    color: bisque;
+}
+
+#description {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: black;
+    color: bisque;
+}
 
 #me {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 100%;
-
-
 }
 
 
+
 #me img {
-    margin-left: 18.5%;
+    margin-top: 50px;
+    margin-left: 50%;
     border-radius: 50%;
     width: 29,5%;
     height: auto;   
-    @media screen and (min-width: $on-large) {
-        float: none;
-        width: 50%;
+    @media screen and (max-width: 768px) {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -295,9 +312,11 @@
 
     @media screen and (min-width: $on-large) {
         width: 50%;
-
-
     }
+}
+
+#portfolio  {
+    background-color: black;
 }
 
 
