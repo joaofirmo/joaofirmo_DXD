@@ -1,4 +1,3 @@
-# Jekyll DXD 2019
+# João Firmo - Jekyll
 
-Ficheiros de trabalho para a aula de Jekyll.
-Baseado no tema [minima](https://github.com/jekyll/minima).
+Baseado no tema [minima](https://github.com/jekyll/minima), mas com um estilo completamente diferente.
