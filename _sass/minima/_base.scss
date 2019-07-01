@@ -144,6 +144,11 @@ h1 {
     color: white;
     margin-right: 1370px;
     font-weight: $base-font-weight;
+    
+        @media screen and (max-width: 768px) {
+        width: 90%;
+        margin-right: 0px;
+    }
 }
 
 h2,
@@ -156,6 +161,10 @@ h6 {
     color: white;
     margin-right: 1300px;
     font-weight: $base-font-weight;
+     @media screen and (max-width: 768px) {
+        width: 90%;
+        margin-right: 0px;
+    }
 }
 
 /**
@@ -163,7 +172,7 @@ h6 {
  */
 a {
 
-    color: white;
+    color: bisque;
     text-decoration: none;
 
     &:visited {
