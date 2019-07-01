@@ -139,6 +139,10 @@
 .footer-heading {
     @include relative-font-size(1.125);
     margin-bottom: $spacing-unit / 2;
+    
+    > h2 {
+        margin-right: auto;
+    }
 }
 
 .contact-list,
