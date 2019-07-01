@@ -150,7 +150,7 @@
 .footer-col-wrapper {
     font-family: 'Space Mono', monospace;
     @include relative-font-size(0.9375);
-    color: white;
+    color: bisque;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -286,6 +286,11 @@
     padding: 20px;
     background-color: black;
     color: bisque;
+    @media screen and (max-width: 768px) {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 #me {
@@ -293,6 +298,11 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 100%;
+    @media screen and (max-width: 768px) {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 
