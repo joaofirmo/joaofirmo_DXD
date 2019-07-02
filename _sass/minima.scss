@@ -26,6 +26,5 @@ $on-large: $on-laptop !default;
     font-size: $base-font-size * $ratio;
 }
 
-@import "joaostyle/base",
-"joaostyle/layout",
-;
+@import "minima/base",
+"minima/layout";
