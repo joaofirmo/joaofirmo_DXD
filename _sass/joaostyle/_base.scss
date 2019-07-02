@@ -1,6 +1,3 @@
-/**
- * Reset some basic elements
- */
 body,
 h1,
 h2,
@@ -19,14 +16,8 @@ ul,
 figure {
     margin: 0;
     padding: 0;
-
 }
 
-
-
-/**
- * Basic styling
- */
 body {
     margin: 0;
     font: 'Montserrat';
@@ -45,16 +36,8 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-
-
-
 }
 
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
 h1,
 h2,
 h3,
@@ -73,31 +56,15 @@ figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
-/**
- * `main` element
- */
 main {
     display: block;
-    /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
-
-
-/**
- * Images
- */
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
-
-
-/**
- * Figures
- */
 figure > img {
     display: block;
 }
@@ -106,11 +73,6 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
-
-/**
- * Lists
- */
 ul,
 ol {
     margin-left: $spacing-unit;
@@ -123,12 +85,6 @@ li {
         margin-bottom: 0;
     }
 }
-
-
-
-/**
- * Headings
- */
 
 #downlow h2 {
     margin-right: auto;
@@ -145,7 +101,7 @@ li h2 {
 h1 {
     font-family: 'Space Mono', monospace;
     background-color: black;
-    color: white;
+    color: $white-color;
     margin-right: 1370px;
     font-weight: $base-font-weight;
 
@@ -162,7 +118,7 @@ h5,
 h6 {
     font-family: 'Space Mono', monospace;
     background-color: black;
-    color: white;
+    color: $white-color;
     margin-right: 1300px;
     font-weight: $base-font-weight;
 
@@ -172,20 +128,17 @@ h6 {
     }
 }
 
-/**
- * Links
- */
 a {
 
     color: bisque;
     text-decoration: none;
 
     &:visited {
-        color: white;
+        color: $white-color;
     }
 
     &:hover {
-        color: white;
+        color: $white-color;
         text-decoration: underline;
     }
 
@@ -198,13 +151,9 @@ a {
     }
 }
 
-
-/**
- * Blockquotes
- */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $bisque-color;
+    border-left: 4px solid $white-color;
     padding-left: $spacing-unit / 2;
     @include relative-font-size(1.125);
     letter-spacing: -1px;
@@ -215,15 +164,10 @@ blockquote {
     }
 }
 
-
-
-/**
- * Code formatting
- */
 pre,
 code {
     @include relative-font-size(0.9375);
-    border: 1px solid $grey-color-light;
+    border: 1px solid $white-color;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -243,39 +187,16 @@ pre {
     }
 }
 
-
-
-/**
- * Wrapper
- */
 .wrapper {
     width: 80vw;
     margin: auto;
     @extend %clearfix;
 }
 
-
-/**
- * Clearfix
- */
 %clearfix:after {
     content: "";
     display: table;
     clear: both;
-}
-
-
-
-/**
- * Icons
- */
-
-.orange {
-    color: $orange-color;
-}
-
-.grey {
-    color: $grey-color;
 }
 
 .svg-icon {
@@ -287,36 +208,3 @@ pre {
     vertical-align: text-bottom;
 }
 
-
-/**
- * Tables
- */
-table {
-    margin-bottom: $spacing-unit;
-    width: 100%;
-    text-align: $table-text-align;
-    color: lighten($text-color, 18%);
-    border-collapse: collapse;
-    border: 1px solid $grey-color-light;
-
-    tr {
-        &:nth-child(even) {
-            background-color: lighten($grey-color-light, 6%);
-        }
-    }
-
-    th,
-    td {
-        padding: ($spacing-unit / 3) ($spacing-unit / 2);
-    }
-
-    th {
-        background-color: lighten($grey-color-light, 3%);
-        border: 1px solid darken($grey-color-light, 4%);
-        border-bottom-color: darken($grey-color-light, 12%);
-    }
-
-    td {
-        border: 1px solid $grey-color-light;
-    }
-}
