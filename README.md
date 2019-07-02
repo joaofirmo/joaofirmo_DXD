@@ -4,6 +4,8 @@ Based on the theme [minima](https://github.com/jekyll/minima), but with a comple
 
 Used technologies:
 
+
+
 _HTML for the whole website
 
 _SCSS for most of the website, had to resort to basic CSS on some areas due to some errors I couldn't fix in SCSS
